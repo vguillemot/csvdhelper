@@ -25,11 +25,12 @@
 #' @import ggplot2
 #' @examples
 #'\dontrun{
-#' x = c(5, 8, 1, 70)
-#' y = c(10, 12, 20, 50)
-#' p <-  ggplot(as.data.frame(cbind(x,y)),
-#'                  aes(x = x, y = y)) +
-#'                     geom_point(size=2, shape=19) + theme_ptca()
+#' x <- c(5, 8, 1, 70)
+#' y <- c(10, 12, 20, 50)
+#' (p <-  ggplot(as.data.frame(cbind(x, y)),
+#'               aes(x = x, y = y)) +
+#'     geom_point(size = 2, shape = 19) +
+#'     theme_csvd())
 #' }
 #' @export
 theme_csvd <- function(mire = TRUE, x0 = 0, y0 = 0) {
@@ -48,7 +49,7 @@ theme_csvd <- function(mire = TRUE, x0 = 0, y0 = 0) {
         axis.text    = element_text(color = dark.col),
         axis.ticks   = element_line(color = dark.col),
         axis.title   = element_text(color = dark.col),
-        panel.background = element_rect(color = col.bkg, 
+        panel.background = element_rect(color = col.bkg,
                                         fill = col.fill),
         aspect.ratio = 1,
         strip.background = element_rect(fill = col.facet),

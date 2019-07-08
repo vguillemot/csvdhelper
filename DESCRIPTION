@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/vguillemot/csvdhelper
 BugReports: https://github.com/vguillemot/csvdhelper/issues
+RoxygenNote: 6.1.1

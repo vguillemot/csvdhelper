@@ -1,11 +1,11 @@
-#' A function that returns the same colors as the default colors return by `ggplot2`.
+#' A function that returns the same colors as the default colors returned by `ggplot2`.
 #' https://stackoverflow.com/a/8197703/3840401
 #' @param n The number of colors
 #' @return n color names in hexadecimal format
-#' @examples 
+#' @examples
 #' colz <- gg_color_hue(5)
 #' barplot(rep(1:5), col = colz)
-#' 
+#'
 #' @author John Colby
 #' @export
 gg_color_hue <- function(n) {
